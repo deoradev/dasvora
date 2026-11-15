@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-14 -6 282 321">
+  <!-- DASVORA mark: polygons traced from logo-original.png (pixel coords offset by 955,77) -->
+  <defs>
+    <linearGradient id="dvU" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".45" stop-color="#d9dce1"/><stop offset=".8" stop-color="#6e737b"/><stop offset="1" stop-color="#2c2f34"/>
+    </linearGradient>
+    <linearGradient id="dvL" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9aa0a8"/><stop offset=".35" stop-color="#eef0f3"/><stop offset=".7" stop-color="#c3c7cd"/><stop offset="1" stop-color="#8b9098"/>
+    </linearGradient>
+    <linearGradient id="dvB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9cc7ff"/><stop offset=".35" stop-color="#2377F4"/><stop offset="1" stop-color="#0050b8"/>
+    </linearGradient>
+    <filter id="dvG" x="-50%" y="-30%" width="200%" height="160%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <path d="M7 0H131L254 126L188 176Z" fill="url(#dvU)"/>
+  <path d="M188 176L254 126V219L161 309H62Z" fill="url(#dvL)"/>
+  <path d="M0 66L99 164V192L0 290Z" fill="url(#dvB)" filter="url(#dvG)"/>
+</svg>
