@@ -54,7 +54,7 @@ if (markOnly) {
   // Lenis smooth scroll (wheel on desktop; native momentum on touch)
   let lenis = null;
   if (window.Lenis) {
-    lenis = new window.Lenis({ lerp: 0.085, smoothWheel: true });
+    lenis = new window.Lenis({ lerp: 0.085, smoothWheel: true }); window.__lenis = lenis;
     lenis.on('scroll', ScrollTrigger.update);
     gsap.ticker.add((time) => lenis.raf(time * 1000));
   }
