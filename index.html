@@ -6,70 +6,78 @@
 <meta name="theme-color" content="#000000">
 <title>DASVORA AI — Build. Automate. Evolve.</title>
 <meta name="description" content="DASVORA AI builds intelligent customer systems and generative video. AI qualifies. Human closes.">
-<link rel="icon" href="assets/brand/mark-provisional.svg" type="image/svg+xml">
+<link rel="icon" href="assets/brand/mark.svg" type="image/svg+xml">
+<script>document.documentElement.classList.add("js")</script>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <canvas id="gl" aria-hidden="true"></canvas>
+<div class="vignette" aria-hidden="true"></div>
 <div class="grain" aria-hidden="true"></div>
+<div class="scroll-progress" aria-hidden="true"><span></span></div>
 
 <header class="nav">
-  <a href="#top" class="logo"><svg class="mark" viewBox="-4 -4 108 108" aria-hidden="true"><defs><linearGradient id="chr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset=".45" stop-color="#a9afb8"/><stop offset=".55" stop-color="#5d636c"/><stop offset="1" stop-color="#e6e9ee"/></linearGradient></defs><path d="M0 0h18v100H0z" fill="url(#chr)"/><path d="M26 100h22l52-50L48 0H26l52 50z" fill="url(#chr)"/><path d="M30 30v40l26-20z" fill="#1E6BFF"/></svg>DASVORA<span>AI</span></a>
+  <a href="#top" class="logo" aria-label="DASVORA AI home"><svg class="mark" viewBox="-14 -6 282 321" aria-hidden="true"><defs><linearGradient id="nU" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff"/><stop offset=".45" stop-color="#d9dce1"/><stop offset=".8" stop-color="#6e737b"/><stop offset="1" stop-color="#2c2f34"/></linearGradient><linearGradient id="nL" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9aa0a8"/><stop offset=".35" stop-color="#eef0f3"/><stop offset=".7" stop-color="#c3c7cd"/><stop offset="1" stop-color="#8b9098"/></linearGradient><linearGradient id="nB" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9cc7ff"/><stop offset=".35" stop-color="#2377F4"/><stop offset="1" stop-color="#0050b8"/></linearGradient></defs><path d="M7 0H131L254 126L188 176Z" fill="url(#nU)"/><path d="M188 176L254 126V219L161 309H62Z" fill="url(#nL)"/><path d="M0 66L99 164V192L0 290Z" fill="url(#nB)"/></svg>DASVORA<span>AI</span></a>
   <nav class="nav-links">
-    <a href="#systems">Systems</a>
-    <a href="#flow">How it works</a>
-    <a href="#features">Features</a>
+    <a href="#build"><i>01</i>Build</a>
+    <a href="#automate"><i>02</i>Automate</a>
+    <a href="#evolve"><i>03</i>Evolve</a>
   </nav>
-  <a href="#contact" class="pill pill-sm">Book a call</a>
+  <a href="#contact" class="pill pill-sm magnetic"><span>Book a call</span></a>
 </header>
+
+<aside class="chapters" aria-hidden="true">
+  <a href="#build" data-ch="build"><b>01</b><em>Build</em></a>
+  <a href="#automate" data-ch="automate"><b>02</b><em>Automate</em></a>
+  <a href="#evolve" data-ch="evolve"><b>03</b><em>Evolve</em></a>
+  <a href="#contact" data-ch="contact"><b>04</b><em>Book a call</em></a>
+</aside>
 
 <main id="top">
   <!-- HERO -->
   <section class="hero">
     <div class="hero-inner">
-      <p class="eyebrow reveal-hero">DASVORA AI</p>
+      <h2 class="wordmark intro-in"><img src="assets/brand/wordmark-cutout.svg" alt="DASVORA — Build Automate Evolve" width="900" height="172"></h2>
       <h1 class="hero-title">
-        <span class="line"><span class="reveal-hero chrome">Build.</span></span>
-        <span class="line"><span class="reveal-hero chrome">Automate.</span></span>
-        <span class="line"><span class="reveal-hero grad">Evolve.</span></span>
+        <span class="line"><span class="intro-line chrome-text">Build.</span></span>
+        <span class="line"><span class="intro-line chrome-text">Automate.</span></span>
+        <span class="line"><span class="intro-line blue-text">Evolve.</span></span>
       </h1>
-      <p class="hero-sub reveal-hero">Intelligent customer systems and generative video. AI qualifies. Human closes.</p>
-      <div class="hero-cta reveal-hero">
-        <a href="#contact" class="pill">Book a call</a>
-        <a href="#flow" class="link-arrow">See how it works</a>
+      <p class="hero-sub intro-in">Intelligent customer systems and generative video. <span class="nowrap">AI qualifies. Human closes.</span></p>
+      <div class="hero-cta intro-in">
+        <a href="#contact" class="pill magnetic"><span>Book a call</span></a>
+        <a href="#build" class="link-arrow">Explore the system</a>
       </div>
     </div>
-    <div class="scroll-cue" aria-hidden="true"><span></span></div>
+    <div class="scroll-cue intro-in" aria-hidden="true"><span></span></div>
   </section>
 
-  <!-- PINNED STATEMENT: words light up as you scroll -->
-  <section class="statement" id="systems">
-    <div class="statement-pin">
-      <p class="statement-text" data-split>Your expertise, turned into conversations that never sleep. Every enquiry answered. Every lead qualified. Your closers, free to close.</p>
+  <!-- CHAPTER 01: BUILD -->
+  <section class="chapter" id="build" data-ch="build">
+    <div class="ch-pin">
+      <p class="ch-num"><span class="line"><span>Chapter 01</span></span></p>
+      <h2 class="ch-word"><span class="line"><span class="chrome-text">Build.</span></span></h2>
+      <p class="ch-copy statement-text" data-split>Your expertise, turned into an AI agent. Trained on your documents, product catalog, pricing rules and sales playbook — so every answer comes from how your business actually sells.</p>
     </div>
   </section>
 
-  <!-- SCROLL-SCRUBBED SHOWCASE -->
-  <section class="showcase" id="flow">
+  <!-- CHAPTER 02: AUTOMATE -->
+  <section class="chapter" id="automate" data-ch="automate">
+    <div class="ch-pin">
+      <p class="ch-num"><span class="line"><span>Chapter 02</span></span></p>
+      <h2 class="ch-word"><span class="line"><span class="chrome-text">Automate.</span></span></h2>
+      <p class="ch-copy fade-copy">Every enquiry on your website, WhatsApp and Instagram — answered, qualified and routed, around the clock.</p>
+    </div>
+  </section>
+
+  <section class="showcase" data-ch="automate">
     <div class="showcase-pin">
       <div class="showcase-copy">
         <p class="eyebrow">The qualification flow</p>
         <div class="steps">
-          <div class="step" data-step="0">
-            <span class="step-num">01</span>
-            <h3>Capture</h3>
-            <p>Enquiries arrive from your website, WhatsApp and Instagram DMs — all in one place.</p>
-          </div>
-          <div class="step" data-step="1">
-            <span class="step-num">02</span>
-            <h3>Qualify</h3>
-            <p>An agent trained on your catalog, pricing rules and sales playbook asks the right questions and scores intent.</p>
-          </div>
-          <div class="step" data-step="2">
-            <span class="step-num">03</span>
-            <h3>Hand off</h3>
-            <p>Qualified buyers go straight to your team’s calendar. A human takes it from there.</p>
-          </div>
+          <div class="step" data-step="0"><span class="step-num">01</span><h3>Capture</h3><p>Enquiries arrive from your website, WhatsApp and Instagram DMs — all in one place.</p></div>
+          <div class="step" data-step="1"><span class="step-num">02</span><h3>Qualify</h3><p>An agent trained on your catalog, pricing rules and sales playbook asks the right questions and scores intent.</p></div>
+          <div class="step" data-step="2"><span class="step-num">03</span><h3>Hand off</h3><p>Qualified buyers go straight to your team’s calendar. A human takes it from there.</p></div>
         </div>
         <div class="progress"><span></span></div>
       </div>
@@ -90,45 +98,54 @@
     </div>
   </section>
 
-  <!-- TWO PILLARS -->
-  <section class="pillars">
-    <div class="pillar reveal">
+  <!-- CHAPTER 03: EVOLVE -->
+  <section class="chapter" id="evolve" data-ch="evolve">
+    <div class="ch-pin">
+      <p class="ch-num"><span class="line"><span>Chapter 03</span></span></p>
+      <h2 class="ch-word"><span class="line"><span class="blue-text">Evolve.</span></span></h2>
+      <p class="ch-copy fade-copy">From conversations to cinema. AI-directed brand films and ad content, without the overhead of a traditional shoot.</p>
+    </div>
+  </section>
+
+  <section class="pillars" data-ch="evolve">
+    <div class="pillar reveal tilt-card">
       <p class="eyebrow">Customer Systems</p>
       <h2>Conversations that<br>qualify themselves.</h2>
       <p>Multi-channel AI agents trained on your documents, catalogs and sales guidelines — answering, qualifying and routing around the clock.</p>
     </div>
-    <div class="pillar reveal">
+    <div class="pillar reveal tilt-card">
       <p class="eyebrow">Generative Video</p>
       <h2>Cinema, without<br>the crew.</h2>
       <p>AI-directed brand films and ad content, produced without the overhead of a traditional shoot.</p>
     </div>
   </section>
 
-  <!-- FEATURES GRID -->
-  <section class="features" id="features">
-    <h2 class="section-title reveal">Everything your front desk does.<br><span class="muted">Without the waiting.</span></h2>
+  <section class="features" data-ch="evolve">
+    <h2 class="section-title"><span class="line"><span class="kinetic">Everything your front desk does.</span></span><span class="line"><span class="kinetic muted">Without the waiting.</span></span></h2>
     <div class="grid">
-      <article class="card reveal-card"><div class="ic">◐</div><h3>Always on</h3><p>24/7 replies, so no enquiry waits for office hours.</p></article>
-      <article class="card reveal-card"><div class="ic">◎</div><h3>WhatsApp-native</h3><p>Agents that live where your customers already talk.</p></article>
-      <article class="card reveal-card"><div class="ic">◇</div><h3>Instagram & web</h3><p>DMs and website chat, handled by the same brain.</p></article>
-      <article class="card reveal-card"><div class="ic">▣</div><h3>Trained on you</h3><p>Your catalog, pricing rules and tone of voice, built in.</p></article>
-      <article class="card reveal-card"><div class="ic">↗</div><h3>Human handoff</h3><p>Serious buyers routed straight to your team’s calendar.</p></article>
-      <article class="card reveal-card"><div class="ic">▶</div><h3>Generative video</h3><p>Brand films and ads created with AI, at the speed of content.</p></article>
+      <article class="card reveal-card tilt-card"><div class="ic">◐</div><h3>Always on</h3><p>24/7 replies, so no enquiry waits for office hours.</p></article>
+      <article class="card reveal-card tilt-card"><div class="ic">◎</div><h3>WhatsApp-native</h3><p>Agents that live where your customers already talk.</p></article>
+      <article class="card reveal-card tilt-card"><div class="ic">◇</div><h3>Instagram & web</h3><p>DMs and website chat, handled by the same brain.</p></article>
+      <article class="card reveal-card tilt-card"><div class="ic">▣</div><h3>Trained on you</h3><p>Your catalog, pricing rules and tone of voice, built in.</p></article>
+      <article class="card reveal-card tilt-card"><div class="ic">↗</div><h3>Human handoff</h3><p>Serious buyers routed straight to your team’s calendar.</p></article>
+      <article class="card reveal-card tilt-card"><div class="ic">▶</div><h3>Generative video</h3><p>Brand films and ads created with AI, at the speed of content.</p></article>
     </div>
   </section>
 
-  <!-- CTA -->
-  <section class="cta" id="contact">
-    <div class="cta-inner reveal">
-      <h2>Let’s build your<br><span class="grad">customer system.</span></h2>
-      <p>Tell us about your business. We’ll show you what an agent built on it could do.</p>
-      <!-- Contact email -->
-      <a class="pill pill-lg" href="mailto:devanshudeora077@gmail.com?subject=DASVORA%20AI%20%E2%80%94%20Book%20a%20call">Book a call</a>
+  <!-- CHAPTER 04: BOOK A CALL -->
+  <section class="cta" id="contact" data-ch="contact">
+    <div class="cta-inner">
+      <p class="ch-num"><span class="line"><span>Chapter 04</span></span></p>
+      <h2 class="cta-title"><span class="line"><span class="kinetic chrome-text">Let’s build</span></span><span class="line"><span class="kinetic blue-text">your system.</span></span></h2>
+      <p class="cta-sub kinetic-fade">Tell us about your business. We’ll show you what an agent built on it could do.</p>
+      <a class="pill pill-lg magnetic kinetic-fade" href="mailto:devanshudeora077@gmail.com?subject=DASVORA%20AI%20%E2%80%94%20Book%20a%20call"><span>Book a call</span></a>
+      <p class="cta-mail kinetic-fade"><a href="mailto:devanshudeora077@gmail.com">devanshudeora077@gmail.com</a></p>
     </div>
   </section>
 </main>
 
 <footer class="footer">
+  <img class="footer-logo" src="assets/brand/logo-cutout.svg" alt="DASVORA logo" width="1018" height="585" loading="lazy">
   <span>© <span id="yr"></span> DASVORA AI · Mumbai</span>
   <a href="https://www.futureresume.in/devanshudeora" target="_blank" rel="noopener">Founder: Devanshu Deora</a>
 </footer>
