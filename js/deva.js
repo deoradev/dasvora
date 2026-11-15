@@ -1,8 +1,8 @@
 /* Deva — DASVORA's scripted assistant (no AI API). Collects need, business and name, then hands off to WhatsApp. */
 (() => {
   const WA_NUMBER = '919990585926';
-  // Analytics: dataLayer events only, no personal data (no names or typed text).
-  const track = (event, extra) => { try { (window.dataLayer = window.dataLayer || []).push(Object.assign({ event }, extra)); } catch (_) {} };
+  // Analytics: GA4 events via gtag, no personal data (no names or typed text).
+  const track = (event, params) => { try { if (typeof window.gtag === 'function') window.gtag('event', event, params || {}); } catch (_) {} };
   document.addEventListener('click', (e) => {
     const a = e.target.closest && e.target.closest('a[href]'); if (!a) return;
     const href = a.getAttribute('href');
