@@ -1,0 +1,11 @@
+<!-- PROVISIONAL recreation of the DASVORA chevron mark (built from a text description; replace with the real logo once available) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 -4 108 108">
+  <defs>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".45" stop-color="#a9afb8"/><stop offset=".55" stop-color="#5d636c"/><stop offset="1" stop-color="#e6e9ee"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 0h18v100H0z" fill="url(#chrome)"/>
+  <path d="M26 100h22l52-50L48 0H26l52 50z" fill="url(#chrome)"/>
+  <path d="M30 30v40l26-20z" fill="#1E6BFF"/>
+</svg>
